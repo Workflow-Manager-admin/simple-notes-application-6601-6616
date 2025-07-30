@@ -1,12 +1,17 @@
 /* CSS Variables for Theme Management */
 :root {
-  /* Light theme colors */
+  /* Light theme colors (custom palette) */
+  --primary: #1976d2;
+  --secondary: #424242;
+  --accent: #ffca28;
+
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
   --text-primary: #282c34;
-  --text-secondary: #61dafb;
+  --text-secondary: #757575;
   --border-color: #e9ecef;
-  --button-bg: #007bff;
+
+  --button-bg: var(--primary, #1976d2);
   --button-text: #ffffff;
 }
 
